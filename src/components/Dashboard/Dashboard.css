@@ -1,6 +1,53 @@
-.chart-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-    justify-content: center;
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .chart-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 20px;
+        padding: 10px;
+
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .chart-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 20px;
+        padding: 10px;
+
+
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .chart-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 20px;
+        padding: 10px;
+
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .chart-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 20px;
+        padding: 10px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .chart-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 20px;
+        padding: 10px;
+    }
 }
