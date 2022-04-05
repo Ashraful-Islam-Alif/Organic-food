@@ -8,7 +8,6 @@ import './Home.css'
 const Home = () => {
     const [reviews, setReviews] = useReviews()
     const reviewSlice = reviews.slice(0, 3)
-    console.log(reviewSlice)
     return (
         <div >
 
