@@ -2,6 +2,6 @@
 Live Link :
 (https://friendly-faloodeh-555155.netlify.app/)
 
--I did this
-_I did that
+- I did this
+- I did that
 
