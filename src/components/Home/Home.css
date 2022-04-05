@@ -3,6 +3,7 @@
     font-weight: 700;
     color: rgb(60, 136, 149);
     font-size: xxx-large;
+    text-align: left;
 }
 
 .home-text1 {
@@ -10,6 +11,11 @@
     font-weight: 700;
     color: rgb(124, 30, 155);
     font-size: xxx-large;
+    text-align: left;
+}
+
+.para-text {
+    text-align: left;
 }
 
 .detail-btn {
@@ -20,6 +26,7 @@
     color: white;
     font-weight: 500;
     background-color: rgb(133, 201, 179);
+    text-align: left;
 }
 
 .review-header {

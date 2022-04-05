@@ -14,10 +14,10 @@ const Home = () => {
             <div className='m-4 '>
                 <Container >
                     <Row className='justify-content-md-center align-items-center'>
-                        <Col sm={8}>
-                            <h1 className='home-text text-left'>Choose Your Love</h1>
-                            <h1 className='home-text1 text-left'>Get Your Favourite</h1>
-                            <p className='text-left'>TopSpeed is a leading marketplace for the automotive industry that connects car shoppers with sellers.</p>
+                        <Col sm={8} className="">
+                            <h1 className='home-text '>Choose Your Love</h1>
+                            <h1 className='home-text1 '>Get Your Favourite</h1>
+                            <p className='para-text'>TopSpeed is a leading marketplace for the automotive industry that connects car shoppers with sellers.</p>
                             <button className='detail-btn'>View Details</button>
                         </Col>
                         <Col sm={4}>
