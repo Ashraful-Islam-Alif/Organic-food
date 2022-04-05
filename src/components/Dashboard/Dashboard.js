@@ -1,10 +1,26 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import DashboardDetails from '../DashboardDetails/DashboardDetails';
 
 const Dashboard = () => {
+    const [charts, setCharts] = useState([])
+    useEffect(() => {
+        fetch('rechartData.json')
+            .then(res => res.json())
+            .then(data => setCharts(data))
+    }, [])
     return (
+
+
         <div>
-            <h1>from dashboard</h1>
+            {
+                charts.map(chart => <DashboardDetails
+                    chart={chart}
+                ></DashboardDetails>
+
+                )
+            }
         </div>
+
     );
 };
 
