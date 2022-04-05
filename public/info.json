@@ -1,32 +1,41 @@
 [
     {
+        "id": "1",
         "name": "Mazhar Nadeem",
         "detail": "Supportive customer care service. There support very much helpful. In every little problem, they help me out. ",
         "Rating": "4.5"
     },
     {
+        "id": "2",
         "name": "Frankcc",
         "detail": "I’m very proud to be your first buyer and am very confident by looking at all the positive ratings of your theme portfolio. Good luck with sales and keep up the great work.",
         "Rating": "4.8"
     },
     {
-        "name": "Gebrauchte Fahrzeuge",
+        "id": "3",
+        "name": "Gebrauchte ",
         "detail": "The support is the best i have had so far. the employees are very friendly and top programmers. there are always important updates. the seller looks after the theme optimally. I can recommend this theme 100%.",
         "Rating": "4.9"
     },
     {
+        "id": "4",
         "name": "Djdevinse",
         "detail": "I'm using so many products in Envato but I got the best and fast customer support service so far from Team Scriptsbundle especially from the Jacob K & Aliyah. Great Support guys and you guys always help me out to fix the issues. I have the trust of your product so i will order more themes from you.",
         "Rating": "4.7"
     },
     {
-        "name": "Smartsys Technology",
+        "id": "5",
+        "name": "Smartsys ",
         "detail": "The customer support has been outstanding throughout. Easy to deal with exceptionally professional and very well-organised in terms of documentation, video instructions and response times. Thank you Charlie for all your efforts been absolutely brilliant and a wonderful experience!.",
         "Rating": "4.5"
     },
     {
+        "id": "6",
         "name": "Consulens",
         "detail": "The theme is full of functionality to help you to create your own ads website. The customer service is really good, they are always there to help you and our support person Jacob is a kind person who is always willing to help, service and support. Thank you team of Scriptsbundle.",
         "Rating": "4.7"
+    },
+    {
+        "img": "https://images.pexels.com/photos/241316/pexels-photo-241316.jpeg"
     }
 ]

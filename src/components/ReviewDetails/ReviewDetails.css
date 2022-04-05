@@ -1,0 +1,12 @@
+.review-details {
+    border: 2px solid black;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(182, 207, 152, 0.538);
+
+}
+
+span {
+    font-weight: 500;
+}
