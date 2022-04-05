@@ -3,6 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import useReviews from '../../hooks/useReviews';
 import HomeDetails from '../HomeDetails/HomeDetails';
+
 import './Home.css'
 const Home = () => {
     const [reviews, setReviews] = useReviews()
@@ -20,11 +21,10 @@ const Home = () => {
                             <p className='text-left'>TopSpeed is a leading marketplace for the automotive industry that connects car shoppers with sellers.</p>
                             <button className='detail-btn'>View Details</button>
                         </Col>
-                        <Col sm={4}>{
-                            reviews.map(review =>
-                                <img className='img-fluid' src={review.img} alt="" />
-                            )
-                        }</Col>
+                        <Col sm={4}>
+
+                            <img className='img-fluid' src="./images/homeCar.png" alt="" />
+                        </Col>
                     </Row>
                 </Container>
             </div>

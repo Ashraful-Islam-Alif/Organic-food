@@ -1,5 +1,6 @@
 .review-details {
-    border: 2px solid black;
+    border: none;
+    box-shadow: 2px 10px 15px 5px rgb(215, 206, 205);
     margin: 20px;
     padding: 10px;
     border-radius: 10px;
